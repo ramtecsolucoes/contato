@@ -100,3 +100,12 @@ a{
     width: 80%;
     max-width: 500px;
   }
+  @media  (max-width: 1400px) {
+
+    .titulo img{
+        max-width: max-content;
+        width: 70%;
+      /* -webkit-filter: drop-shadow(5px 5px 5px yellow);
+      filter: drop-shadow(5px 5px 5px yellow); */
+    }
+  }
